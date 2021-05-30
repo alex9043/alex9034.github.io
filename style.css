@@ -6,6 +6,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: url('./img/main_bg.jpg') center center/cover no-repeat;
+    /* filter: blur(3px); */
     display: flex;
     justify-content: center;
 }
@@ -15,5 +16,28 @@ body {
 }
 
 #center {
+    background-color: rgba(207, 202, 199, 80%);
     width: 32%;
+    margin: 0 3%;
+}
+
+h1{
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2{
+    font-size: 100px;
+    color: rgb(170, 162, 155);
+    margin: 55% auto;
+}
+
+.logo_a{
+    display: inline;
+    margin: 0 auto;
+}
+
+.logo{
+    width:  85px;
+    height: 98px;
 }
