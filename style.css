@@ -70,7 +70,26 @@ h2 {
     cursor: pointer;
 }
 
+#cleaning_selecton{
+    margin: 25px;
+}
+
+.cleaning_buttons{
+    display: flex;
+    flex-direction: row;
+}
+
 .cleaning_button_img{
     width: 18px;
     height: 30px;
+}
+
+.additional_button{
+    width: 45px;
+    height: 45px;
+}
+
+.additional_btn_img{
+    max-width: 43px;
+    max-height: 43px;
 }
