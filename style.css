@@ -2,6 +2,8 @@ body {
     margin: 0 auto;
 }
 
+/* Main page */
+
 #main {
     width: 100vw;
     height: 100vh;
@@ -11,23 +13,22 @@ body {
     justify-content: center;
 }
 
-.page {
-    width: 100vw;
-    height: 100vh;
-    background: url('./img/bg.jpg') center center/cover no-repeat;
-    /* filter: blur(3px); */
-    display: flex;
-    justify-content: center;
-}
-
 .col {
     width: auto;
+}
+
+#left{
+
 }
 
 #center {
     background-color: rgba(207, 202, 199, 80%);
     width: 32%;
     margin: 0 3%;
+}
+
+#right{
+    
 }
 
 h1 {
@@ -70,26 +71,105 @@ h2 {
     cursor: pointer;
 }
 
+#social{
+
+}
+
+.social_networks{
+
+}
+
+/* Pages section */ 
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    background: url('./img/bg.jpg') center center/cover no-repeat;
+    /* filter: blur(3px); */
+    display: flex;
+    justify-content: center;
+}
+
+/*Services Page */
+
+#service{
+    display: inline-block;
+    
+}
+
+#cleaning{
+    display: inleine;
+    
+}
+
+#service_1_p{
+    text-align: center;
+}
+
 #cleaning_selecton{
-    margin: 25px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .cleaning_buttons{
+}
+
+.cleaning_button{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content:center;
 }
 
 .cleaning_button_img{
-    width: 18px;
+    width: 30px;
     height: 30px;
+    margin-right: 10px;
+}
+
+.cleaning_button_cost{
+    text-align: center;
+    margin: 5px;
+}
+
+#additional{
+    width: 40%;
+    margin: 0 auto;
+}
+
+#additional_p{
+
+}
+
+#additional_services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.additional_services_div{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.additional_cost{
+
 }
 
 .additional_button{
     width: 45px;
     height: 45px;
+    padding: 0;
 }
 
 .additional_btn_img{
-    max-width: 43px;
-    max-height: 43px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.additional_name{
+
 }
